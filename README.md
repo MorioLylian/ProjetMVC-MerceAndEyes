@@ -1,10 +1,12 @@
+
+
+
+ce projet est un projet de Merch porter par le groupe :
+
 Morio Lylian
 Guillo Denwal
 Maillard Lucas
 Ledanois Thibault
-
-
-ce projet est un projet de Merch
 
 Le but est de vendre des vêtements avec notre logo dessus
 
