@@ -489,7 +489,7 @@ footer{
             
             <a class="logo"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
             <div class="header-right">
-                <a >Accueil</a>
+                <a href="/">Accueil</a>
                 <a >Gallerie</a>
                 <a class="active">Contact</a>
             </div>

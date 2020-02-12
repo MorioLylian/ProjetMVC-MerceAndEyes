@@ -212,7 +212,7 @@
             <div class="header-right">
                 <a class="active" >Accueil</a>
                 <a >Gallerie</a>
-                <a >Contact</a>
+                <a href="contact">Contact</a>
             </div>
         </header>
 
