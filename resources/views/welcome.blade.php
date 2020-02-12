@@ -197,8 +197,7 @@
             }
 
             .reseaux_sociaux {
-                margin: 0;
-                padding: 0;
+                margin: 0 auto;
             }
 
             @media screen and (max-width: 700px) {
