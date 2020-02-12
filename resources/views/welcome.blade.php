@@ -194,7 +194,7 @@
                 padding: 5px;
                 border: 1px solid blue;    
                 background-color: yellow;
-                margin : 0 auto; 
+                margin-left: 20.5%;
             }
 
             .reseaux_sociaux {
