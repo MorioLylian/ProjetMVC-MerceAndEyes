@@ -487,7 +487,7 @@ footer{
     <body>
         <header class="header">
             
-            <a class="logo"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
+            <a class="logo" href="welcomeANG"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
             <div class="header-right">
                 <a href="welcomeANG">Home</a>
                 <a href="galerieANG">Gallery</a>

@@ -313,7 +313,7 @@
                     
                 <div class="flex">
                     <p>Passer en Anglais</p>
-                    <a ><img class="resaux" src="images/logo_ANG.png" alt="Logo Angleterre"/></a>
+                    <a href="welcomeANG"><img class="resaux" src="images/logo_ANG.png" alt="Logo Angleterre"/></a>
                 </div>
             </div>
         </footer>
