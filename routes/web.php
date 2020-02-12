@@ -22,3 +22,15 @@ Route::get('contact', function () {
 Route::get('gallerie', function () {
     return view('gallerie');
 });
+
+Route::get('gallerieANG', function () {
+    return view('gallerieANG');
+});
+
+Route::get('welcomeANG', function () {
+    return view('welcomeANG');
+});
+
+Route::get('contactANG', function () {
+    return view('contactANG');
+});

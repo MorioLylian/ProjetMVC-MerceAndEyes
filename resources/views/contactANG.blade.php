@@ -489,8 +489,8 @@ footer{
             
             <a class="logo"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
             <div class="header-right">
-                <a href="/">Accueil</a>
-                <a href="gallerie">Gallerie</a>
+                <a href="welcomeANG">Home</a>
+                <a href="gallerieANG">Gallery</a>
                 <a class="active">Contact</a>
             </div>
         </header>
@@ -499,29 +499,29 @@ footer{
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form">
 				<span class="contact100-form-title">
-					Nous contacter :
+					Contact us :
 				</span>
 
-				<div class="wrap-input100 validate-input" data-validate="Il faut le nom !">
-					<input class="input100" type="text" name="name" placeholder="Nom et Prénom">
+				<div class="wrap-input100 validate-input" data-validate="You need your name !">
+					<input class="input100" type="text" name="name" placeholder="Full name">
 					<span class="focus-input100-1"></span>
 					<span class="focus-input100-2"></span>
 				</div>
 
-				<div class="wrap-input100 validate-input" data-validate = "Il faut un mail !">
-					<input class="input100" type="text" name="email" placeholder="Email">
+				<div class="wrap-input100 validate-input" data-validate = "You need your e-mail !">
+					<input class="input100" type="text" name="email" placeholder="E-mail">
 					<span class="focus-input100-1"></span>
 					<span class="focus-input100-2"></span>
 				</div>
 
-				<div class="wrap-input100 validate-input" data-validate = "Il faut un message ">
-					<textarea class="input100" name="message" placeholder="Votre message"></textarea>
+				<div class="wrap-input100 validate-input" data-validate = "Type something please ! ">
+					<textarea class="input100" name="message" placeholder="Your message"></textarea>
 					<span class="focus-input100-1"></span>
 					<span class="focus-input100-2"></span>
 				</div>
                 <div class="container-contact100-form-btn">
 					<button class="contact100-form-btn">
-						Envoyer
+						Send
 					</button>
 				</div>
 			</form>
@@ -530,7 +530,7 @@ footer{
   <footer>
             <div class="footer">
                 <div class="flex">
-                    <p>Nos Résaux</p>
+                    <p>Our social networks</p>
                     <div class="flex">
                     <a ><img class="resaux" src="images/logo_TWITTER.png" alt="Logo de twitter"/></a>
                     <a ><img class="resaux" src="images/logo_FB.png" alt="Logo de facebook"/></a>
@@ -539,12 +539,12 @@ footer{
                 </div>
                     
                 <div>
-                    <p>Naviguer vers <a class="violet" href="/"> Accueil </a><a class="violet" href="gallerie"> Gallerie </a><a class="violet"> Contact </a></p>
+                    <p>Go to<a class="violet" href="welcomeANG"> Home </a><a class="violet" href="gallerieANG"> Gallery </a><a class="violet"> Contact </a></p>
                 </div>
                     
                 <div class="flex">
-                    <p>Passer en Anglais</p>
-                    <a href="contactANG"><img class="resaux" src="images/logo_ANG.png" alt="Logo Angleterre"/></a>
+                    <p>Display French site</p>
+                    <a href="contact"><img class="resaux" src="images/logo_FR.png" alt="Logo France"/></a>
                 </div>
             </div>
         </footer>
