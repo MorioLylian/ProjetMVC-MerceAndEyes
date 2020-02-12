@@ -188,11 +188,12 @@
             }
 
             .square-container .square {
-            display: inline-block;          
-            width: 100px;
-            height: 100px;
-            vertical-align: middle;
-            float: none;
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                padding: 5px;
+                border: 1px solid blue;    
+                background-color: yellow; 
             }
 
             @media screen and (max-width: 700px) {
@@ -251,13 +252,13 @@
         <div class="actualite">
         <p class="boldcenter">NOS ACTUALITÉES!</p>
             <div class="square">
-              <p> bjr </p>
+                <p> bjr </p>
             </div>
             <div class="square">
-            <p> bjr </p>
+                <p> bjr </p>
             </div>
             <div class="square">
-            <p> bjr </p>
+                <p> bjr </p>
             </div>
         </div>
 
