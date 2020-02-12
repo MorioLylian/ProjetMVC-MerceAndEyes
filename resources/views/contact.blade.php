@@ -428,7 +428,20 @@ textarea.input100 {
 
 
 
-            footer{
+.flex{
+                display:flex;
+            }
+
+            .flex a:hover{
+                cursor:pointer;
+            }
+
+            .resaux{
+                max-width:50px;
+                margin-left:1%;
+            }
+            
+footer{
                 overflow: hidden;
                 padding: 20px 10px;
                 border-color : #8d3c93;
@@ -441,7 +454,7 @@ textarea.input100 {
             }
 
             footer div{
-                width:33%;
+                width:50%;
                 text-align:center; 
             }
 
@@ -514,18 +527,24 @@ textarea.input100 {
 			</form>
 		</div>
 	</div>   
-        <footer>
+  <footer>
             <div class="footer">
-                <div>
+                <div class="flex">
                     <p>Nos Résaux</p>
+                    <div class="flex">
+                    <a ><img class="resaux" src="images/logo_TWITTER.png" alt="Logo de twitter"/></a>
+                    <a ><img class="resaux" src="images/logo_FB.png" alt="Logo de facebook"/></a>
+                    <a ><img class="resaux" src="images/logo_INSTA.png" alt="Logo d'instagram"/></a>
+                    </div>
                 </div>
                     
                 <div>
                     <p>Naviguer vers <a class="violet"> Accueil </a><a class="violet"> Gallerie </a><a class="violet"> Contact </a></p>
                 </div>
                     
-                <div>
+                <div class="flex">
                     <p>Passer en Anglais</p>
+                    <a ><img class="resaux" src="images/logo_ANG.png" alt="Logo Angleterre"/></a>
                 </div>
             </div>
         </footer>
