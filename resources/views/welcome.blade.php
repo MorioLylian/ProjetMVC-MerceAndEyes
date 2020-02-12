@@ -174,6 +174,32 @@
                 margin-left:1%;
             }
 
+            .equipeflex{
+                display:flex;
+            }
+
+            .equipeflex img{
+                width:10%;
+                margin-left:12%;
+            }
+            .equipeflex p{
+                width:10%;
+                margin-left:12%;
+            }
+
+
+            @media screen and (max-width: 700px) {
+                .equipeflex p{
+                    font-size: 14px;
+            }
+            }
+
+            @media screen and (max-width: 400px) {
+                .equipeflex p{
+                    font-size: 9px;
+            }
+            }
+
      
 
 
@@ -231,7 +257,18 @@
 
         <div class="equipe">
         <p class="boldcenter">NOTRE ÉQUIPE!</p>
-            
+            <div class="equipeflex">
+            <img src="images/IMG_Lucas.png" >
+            <img src="images/IMG_Lylian.png" >
+            <img src="images/IMG_Denwal.png" >
+            <img src="images/IMG_Thibault.png" >
+            </div>
+            <div class="equipeflex">
+                <p class="boldcenter">Lucas MAILLARD</p>
+                <p class="boldcenter">Lylian MORIO</p>
+                <p class="boldcenter">Denwal GUILLO</p>
+                <p class="boldcenter">Thibault LEDANOIS</p>
+            </div>
         </div>
 
 
