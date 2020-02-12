@@ -187,7 +187,7 @@
                 margin-left:12%;
             }
 
-            .square-container .square {
+            span.al_vertical {
                 display: inline-block;
                 width: 100px;
                 height: 100px;
@@ -251,15 +251,9 @@
 
         <div class="actualite">
         <p class="boldcenter">NOS ACTUALITÉES!</p>
-            <div class="square">
-                <p> bjr </p>
-            </div>
-            <div class="square">
-                <p> bjr </p>
-            </div>
-            <div class="square">
-                <p> bjr </p>
-            </div>
+            <span class="al_vertical">bjr</span>
+            <span class="al_vertical">bjr </span>
+            <span class="al_vertical">bjr </span>
         </div>
 
 
