@@ -90,7 +90,7 @@
             }
 
             footer div{
-                width:33%;
+                width:50%;
                 text-align:center; 
             }
 
@@ -110,6 +110,73 @@
             }
 
 
+
+
+
+            div#slider figure {
+                position: relative;
+                width: 500%;
+                margin: 0;
+                padding: 0;
+                font-size: 0;
+                left: 0;
+                text-align: left;
+                animation: 20s slidy infinite;
+                background :#E7D5E8;
+            }
+            div#slider figure img {
+                width: 5%;
+                height: auto;
+                float: left;
+                background :#E7D5E8;
+            }
+
+            div#slider {
+                width: 100%;
+                overflow: hidden;
+                background :#E7D5E8;
+                
+            }
+
+            @keyframes slidy {
+            0% { left: 0%; }
+            20% { left: -25%; }
+            40% { left: -50%; }
+            60% { left: -75%; }
+            80% { left: -100%; }
+            100% { left: -125%; }
+            }
+
+
+            .boldcenter{
+                color:#8d3c93;
+                text-align:center;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+
+            .equipe{
+                background :#E7D5E8;
+            }
+
+
+            .flex{
+                display:flex;
+            }
+
+            .flex a:hover{
+                cursor:pointer;
+            }
+
+            .resaux{
+                max-width:50px;
+                margin-left:1%;
+            }
+
+     
+
+
         </style>
     </head>
     <body>
@@ -122,28 +189,79 @@
                 <a >Contact</a>
             </div>
         </header>
-        
+
+        <div id="slider">
+        <p class="boldcenter">NOS PRODUITS LES PLUS AIMÉS!</p>
+            <figure>
+                <img src="images/sweatblanc.png" >
+                <img src="images/tshirtblanc.png" >
+                <img src="images/tshirtrose.png" >
+                <img src="images/sweatrouge.png" >
+                <img src="images/sweatviolet.png" >
+                <img src="images/sweatblanc.png" >
+                <img src="images/tshirtblanc.png" >
+                <img src="images/tshirtrose.png" >
+                <img src="images/sweatrouge.png" >
+                <img src="images/sweatviolet.png" >
+                
+            </figure>
+        </div>
 
 
 
 
 
-        
+
+
+
+
+        <div class="actualite">
+        <p class="boldcenter">NOS ACTUALITÉES!</p>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="equipe">
+        <p class="boldcenter">NOTRE ÉQUIPE!</p>
+            
+        </div>
+
+
+
+
+
+
+
+
 
 
 
         <footer>
             <div class="footer">
-                <div>
+                <div class="flex">
                     <p>Nos Résaux</p>
+                    <div class="flex">
+                    <a ><img class="resaux" src="images/logo_TWITTER.png" alt="Logo de twitter"/></a>
+                    <a ><img class="resaux" src="images/logo_FB.png" alt="Logo de facebook"/></a>
+                    <a ><img class="resaux" src="images/logo_INSTA.png" alt="Logo d'instagram"/></a>
+                    </div>
                 </div>
                     
                 <div>
                     <p>Naviguer vers <a class="violet"> Accueil </a><a class="violet"> Gallerie </a><a class="violet"> Contact </a></p>
                 </div>
                     
-                <div>
+                <div class="flex">
                     <p>Passer en Anglais</p>
+                    <a ><img class="resaux" src="images/logo_ANG.png" alt="Logo Angleterre"/></a>
                 </div>
             </div>
         </footer>
