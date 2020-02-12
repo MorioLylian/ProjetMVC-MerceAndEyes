@@ -198,7 +198,7 @@
             }
 
             .reseaux_sociaux {
-                margin: 0 auto;
+                display: flex;
             }
 
             @media screen and (max-width: 700px) {
