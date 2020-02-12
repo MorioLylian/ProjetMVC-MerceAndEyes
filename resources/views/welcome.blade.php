@@ -211,7 +211,7 @@
             <a class="logo"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
             <div class="header-right">
                 <a class="active" >Accueil</a>
-                <a >Gallerie</a>
+                <a href="gallerie">Gallerie</a>
                 <a href="contact">Contact</a>
             </div>
         </header>
