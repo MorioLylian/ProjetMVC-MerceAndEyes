@@ -187,6 +187,13 @@
                 margin-left:12%;
             }
 
+            .square-container .square {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            border:1;
+            border-color:black;
+            }
 
             @media screen and (max-width: 700px) {
                 .equipeflex p{
@@ -243,7 +250,12 @@
 
         <div class="actualite">
         <p class="boldcenter">NOS ACTUALITÉES!</p>
-            
+            <div class="square">
+            </div>
+            <div class="square">
+            </div>
+            <div class="square">
+            </div>
         </div>
 
 
