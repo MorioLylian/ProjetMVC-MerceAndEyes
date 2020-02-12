@@ -196,6 +196,11 @@
                 background-color: yellow; 
             }
 
+            .reseaux_sociaux {
+                margin: 0;
+                padding: 0;
+            }
+
             @media screen and (max-width: 700px) {
                 .equipeflex p{
                     font-size: 14px;
@@ -251,9 +256,11 @@
 
         <div class="actualite">
         <p class="boldcenter">NOS ACTUALITÉES!</p>
-            <span class="al_vertical">bjr</span>
-            <span class="al_vertical">bjr </span>
-            <span class="al_vertical">bjr </span>
+            <div class="reseaux_sociaux">
+                <span class="al_vertical">bjr</span>
+                <span class="al_vertical">bjr </span>
+                <span class="al_vertical">bjr </span>
+            </div>  
         </div>
 
 
