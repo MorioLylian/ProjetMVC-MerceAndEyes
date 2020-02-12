@@ -490,7 +490,7 @@ footer{
             <a class="logo"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
             <div class="header-right">
                 <a href="welcomeANG">Home</a>
-                <a href="gallerieANG">Gallery</a>
+                <a href="galerieANG">Gallery</a>
                 <a class="active">Contact</a>
             </div>
         </header>
@@ -539,7 +539,7 @@ footer{
                 </div>
                     
                 <div>
-                    <p>Go to<a class="violet" href="welcomeANG"> Home </a><a class="violet" href="gallerieANG"> Gallery </a><a class="violet"> Contact </a></p>
+                    <p>Go to<a class="violet" href="welcomeANG"> Home </a><a class="violet" href="galerieANG"> Gallery </a><a class="violet"> Contact </a></p>
                 </div>
                     
                 <div class="flex">

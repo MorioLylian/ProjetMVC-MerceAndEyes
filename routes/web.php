@@ -19,12 +19,12 @@ Route::get('contact', function () {
     return view('contact');
 });
 
-Route::get('gallerie', function () {
-    return view('gallerie');
+Route::get('galerie', function () {
+    return view('galerie');
 });
 
-Route::get('gallerieANG', function () {
-    return view('gallerieANG');
+Route::get('galerieANG', function () {
+    return view('galerieANG');
 });
 
 Route::get('welcomeANG', function () {
