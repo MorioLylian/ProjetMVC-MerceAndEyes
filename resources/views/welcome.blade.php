@@ -251,10 +251,13 @@
         <div class="actualite">
         <p class="boldcenter">NOS ACTUALITÉES!</p>
             <div class="square">
+              <p> bjr </p>
             </div>
             <div class="square">
+            <p> bjr </p>
             </div>
             <div class="square">
+            <p> bjr </p>
             </div>
         </div>
 
