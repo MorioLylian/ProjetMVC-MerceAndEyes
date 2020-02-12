@@ -188,11 +188,11 @@
             }
 
             .square-container .square {
-            display: inline-block;
+            display: inline-block;          
             width: 100px;
             height: 100px;
-            border:1;
-            border-color:black;
+            vertical-align: middle;
+            float: none;
             }
 
             @media screen and (max-width: 700px) {
@@ -218,7 +218,7 @@
             <a class="logo"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
             <div class="header-right">
                 <a class="active" >Accueil</a>
-                <a href="galerie">Galerie</a>
+                <a href="gallerie">Gallerie</a>
                 <a href="contact">Contact</a>
             </div>
         </header>
@@ -308,12 +308,12 @@
                 </div>
                     
                 <div>
-                    <p>Naviguer vers <a class="violet"> Accueil </a><a class="violet" href="galerie"> Galerie </a><a class="violet" href="contact"> Contact </a></p>
+                    <p>Naviguer vers <a class="violet"> Accueil </a><a class="violet" href="gallerie"> Gallerie </a><a class="violet" href="contact"> Contact </a></p>
                 </div>
                     
                 <div class="flex">
                     <p>Passer en Anglais</p>
-                    <a href="welcomeANG"><img class="resaux" src="images/logo_ANG.png" alt="Logo Angleterre"/></a>
+                    <a ><img class="resaux" src="images/logo_ANG.png" alt="Logo Angleterre"/></a>
                 </div>
             </div>
         </footer>
