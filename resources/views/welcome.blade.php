@@ -193,7 +193,8 @@
                 height: 100px;
                 padding: 5px;
                 border: 1px solid blue;    
-                background-color: yellow; 
+                background-color: yellow;
+                margin : 0 auto; 
             }
 
             .reseaux_sociaux {
