@@ -187,7 +187,7 @@
                 margin-left:12%;
             }
 
-            span.al_vertical {
+            div.al_vertical {
                 display: inline-block;
                 width: 100px;
                 height: 100px;
@@ -256,9 +256,9 @@
         <div class="actualite">
         <p class="boldcenter">NOS ACTUALITÉES!</p>
             <div class="reseaux_sociaux">
-                <span class="al_vertical">bjr</span>
-                <span class="al_vertical">bjr </span>
-                <span class="al_vertical">bjr </span>
+                <div class="al_vertical">bjr</div>
+                <div class="al_vertical">bjr </div>
+                <div class="al_vertical">bjr </div>
             </div>  
         </div>
 
