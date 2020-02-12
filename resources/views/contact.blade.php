@@ -539,7 +539,7 @@ footer{
                 </div>
                     
                 <div>
-                    <p>Naviguer vers <a class="violet"> Accueil </a><a class="violet"> Gallerie </a><a class="violet"> Contact </a></p>
+                    <p>Naviguer vers <a class="violet" href="/"> Accueil </a><a class="violet" href="gallerie"> Gallerie </a><a class="violet"> Contact </a></p>
                 </div>
                     
                 <div class="flex">
