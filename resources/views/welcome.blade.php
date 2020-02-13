@@ -248,7 +248,7 @@
             <a class="logo"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
             <div class="header-right">
                 <a class="active" >Accueil</a>
-                <a href="gallerie">Gallerie</a>
+                <a href="galerie">Galerie</a>
                 <a href="contact">Contact</a>
             </div>
         </header>
@@ -346,7 +346,7 @@
                 </div>
                     
                 <div>
-                    <p>Naviguer vers <a class="violet"> Accueil </a><a class="violet" href="gallerie"> Gallerie </a><a class="violet" href="contact"> Contact </a></p>
+                    <p>Naviguer vers <a class="violet"> Accueil </a><a class="violet" href="galerie"> Galerie </a><a class="violet" href="contact"> Contact </a></p>
                 </div>
                     
                 <div class="flex">

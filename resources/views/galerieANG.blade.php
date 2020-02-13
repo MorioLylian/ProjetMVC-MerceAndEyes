@@ -259,16 +259,16 @@
             
             <a class="logo"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
             <div class="header-right">
-                <a class="active" >Accueil</a>
-                <a href="galerie">Galerie</a>
+                <a class="active" >Home</a>
+                <a href="galerie">Gallery</a>
                 <a href="contact">Contact</a>
             </div>
         </header>
 
         <div class="divpink">
             <div class="divcaseblanc">
-                <p class="boldcenter">SWEAT</p><p>50€ unitaire</p><p>
-                120€ par commande de 3</p>
+                <p class="boldcenter">SWEAT</p><p>50€ per unit</p><p>
+                120€ per order of 3</p>
             </div>
             <div class="divimages">
                 <img src="images/sweatrouge.png" alt="sweat rouge">
@@ -280,8 +280,8 @@
         </div>
         <div class=divblank>
             <div class="divcaserose">
-                <p class="boldcenter">T-SHIRT</p><p>30€ unitaire</p>
-                <p>80€ par commande de 3</p>
+                <p class="boldcenter">T-SHIRT</p><p>30€ per unit</p>
+                <p>80€ per order of 3</p>
             </div>
             <div class="divimages">
                 <img src="images/tshirtblanc.png" alt="t-shirt blanc">
@@ -293,8 +293,8 @@
         </div>
         <div class="divpink">
             <div class="divcaseblanc">
-                <p class="boldcenter">JEAN</p><p>45€ unitaire</p><p>
-                110€ par commande de 3</p>
+                <p class="boldcenter">JEAN</p><p>45€ per unit</p><p>
+                110€ per order of 3</p>
             </div>
             <div class="divimages">
                 <img src="images/jean1.png" alt="jean gris">
@@ -323,7 +323,7 @@
         <footer>
             <div class="footer">
                 <div class="flex">
-                    <p>Nos Résaux</p>
+                    <p>Our Networks</p>
                     <div class="flex">
                     <a ><img class="resaux" src="images/logo_TWITTER.png" alt="Logo de twitter"/></a>
                     <a ><img class="resaux" src="images/logo_FB.png" alt="Logo de facebook"/></a>
@@ -332,12 +332,12 @@
                 </div>
                     
                 <div>
-                    <p>Naviguer vers <a class="violet"> Accueil </a><a class="violet" href="galerie"> Galerie </a><a class="violet" href="contact"> Contact </a></p>
+                    <p>Naviguer vers <a class="violet"> Home </a><a class="violet" href="galerie"> Gallery </a><a class="violet" href="contact"> Contact </a></p>
                 </div>
                     
                 <div class="flex">
-                    <p>Passer en Anglais</p>
-                    <a ><img class="resaux" src="images/logo_ANG.png" alt="Logo Angleterre" href="galerieANG"/></a>
+                    <p>switch to english</p>
+                    <a ><img class="resaux" src="images/logo_FR.png" alt="Logo France"/></a>
                 </div>
             </div>
         </footer>
