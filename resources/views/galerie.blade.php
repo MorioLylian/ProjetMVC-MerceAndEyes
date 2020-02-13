@@ -191,11 +191,15 @@
                 background-color: #E7D5E8;
                 border-top: solid 3px #8d3c93;
                 border-bottom: solid 3px #8d3c93;
-                padding-left: 10px;
+                padding-left: 0.5%;
+                padding-top: 2%;
+                padding-bottom: 2%;
                 display:flex;
             }
             .divblank{
-                padding-left: 10px;
+                padding-left: 0.5%;
+                padding-top: 2%;
+                padding-bottom: 2%;
                 display:flex;
             }
             .divcaserose{
@@ -215,12 +219,15 @@
                 margin-top: 2.5%;
                 padding: 5px;
                 margin-bottom:2%;
-                transition:0.5s
+                transition:0.5s;
             }
         .divimages{
             margin-left:10%;
         }
         .divimages img{
+            margin-top: auto;
+            margin-left: 1.5%;
+            margin-right: 1.5%;
             width:15%;
             transition:0.5s;
         }
@@ -253,7 +260,7 @@
             <a class="logo"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
             <div class="header-right">
                 <a class="active" >Accueil</a>
-                <a href="gallerie">Gallerie</a>
+                <a href="galerie">Galerie</a>
                 <a href="contact">Contact</a>
             </div>
         </header>
@@ -325,7 +332,7 @@
                 </div>
                     
                 <div>
-                    <p>Naviguer vers <a class="violet"> Accueil </a><a class="violet" href="gallerie"> Gallerie </a><a class="violet" href="contact"> Contact </a></p>
+                    <p>Naviguer vers <a class="violet"> Accueil </a><a class="violet" href="galerie"> Galerie </a><a class="violet" href="contact"> Contact </a></p>
                 </div>
                     
                 <div class="flex">
