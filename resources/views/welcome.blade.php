@@ -223,7 +223,7 @@
                     font-size: 14px;
             }
             }
-            @media screen and (max-width: 1540px) {
+            @media screen and (max-width: 1500px) {
             .reseaux_sociaux {
                 display: flex;
                 flex-direction: column;
