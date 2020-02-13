@@ -199,23 +199,33 @@
                 display:flex;
             }
             .divcaserose{
+                width: 25%;
                 background-color: #E7D5E8;
                 border: solid 4px #8d3c93;
                 border-radius: 8px;
                 margin-top: 2.5%;
                 padding: 5px;
                 margin-bottom:2%;
-        }
+            }
             .divcaseblanc{
+                width: 25%;
                 background-color: white;
                 border: solid 4px #8d3c93;
                 border-radius: 8px;
                 margin-top: 2.5%;
                 padding: 5px;
                 margin-bottom:2%;
+                transition:0.5s
             }
         .divimages{
             margin-left:10%;
+        }
+        .divimages img{
+            width:15%;
+            transition:0.5s;
+        }
+        .divimages img:hover{
+            width: 20%;
         }
 
             /* |/\/\| Fin du code css que j'ai ajouté |/\/\| */
@@ -254,11 +264,11 @@
                 120€ par commande de 3</p>
             </div>
             <div class="divimages">
-                <img src="images/sweatrouge.png" alt="sweat rouge" width="200" height="200">
-                <img src="images/sweatblanc.png" alt="sweat blanc" width="200" height="200">
-                <img src="images/sweatnoir.png" alt="sweat noir" width="200" height="200">
-                <img src="images/sweatviolet.png" alt="sweat violet" width="200" height="200">
-                <img src="images/sweatbleu.png" alt="sweat bleu" width="200" height="200">
+                <img src="images/sweatrouge.png" alt="sweat rouge">
+                <img src="images/sweatblanc.png" alt="sweat blanc">
+                <img src="images/sweatnoir.png" alt="sweat noir">
+                <img src="images/sweatviolet.png" alt="sweat violet">
+                <img src="images/sweatbleu.png" alt="sweat bleu">
             </div>
         </div>
         <div class=divblank>
@@ -267,24 +277,24 @@
                 <p>80€ par commande de 3</p>
             </div>
             <div class="divimages">
-                <img src="images/tshirtblanc.png" alt="tee-shirt blanc" width="200" height="200">
-                <img src="images/tshirtbleu.png" alt="tee-shirt bleu" width="200" height="200">
-                <img src="images/tshirtnoir.png" alt="tee-shirt noir" width="200" height="200">
-                <img src="images/tshirtrose.png" alt="tee-shirt rose" width="200" height="200">
-                <img src="images/tshirtrouge.png" alt="tee-shirt rouge" width="200" height="200">
+                <img src="images/tshirtblanc.png" alt="tee-shirt blanc">
+                <img src="images/tshirtbleu.png" alt="tee-shirt bleu">
+                <img src="images/tshirtnoir.png" alt="tee-shirt noir">
+                <img src="images/tshirtrose.png" alt="tee-shirt rose">
+                <img src="images/tshirtrouge.png" alt="tee-shirt rouge">
             </div>
         </div>
         <div class="divpink">
             <div class="divcaseblanc">
-                <p class="boldcenter">SWEAT</p><p>45€ pièce</p><p>
+                <p class="boldcenter">JEAN</p><p>45€ pièce</p><p>
                 110€ par commande de 3</p>
             </div>
             <div class="divimages">
-                <img src="images/jean1.png" alt="jean gris" width="200" height="200">
-                <img src="images/jean2.png" alt="jean noir" width="200" height="200">
-                <img src="images/jean3.png" alt="jean usée" width="200" height="200">
-                <img src="images/jean4.png" alt="jean bleu" width="200" height="200">
-                <img src="images/jean5.png" alt="jean clair" width="200" height="200">
+                <img src="images/jean1.png" alt="jean gris">
+                <img src="images/jean2.png" alt="jean noir">
+                <img src="images/jean3.png" alt="jean usée">
+                <img src="images/jean4.png" alt="jean bleu">
+                <img src="images/jean5.png" alt="jean clair">
             </div>
         </div>
 
