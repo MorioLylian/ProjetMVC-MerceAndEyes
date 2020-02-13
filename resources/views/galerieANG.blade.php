@@ -259,9 +259,9 @@
             
             <a class="logo"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
             <div class="header-right">
-                <a class="active" >Home</a>
-                <a href="galerie">Gallery</a>
-                <a href="contact">Contact</a>
+                <a href="welcomeANG" >Home</a>
+                <a class="active">Gallery</a>
+                <a href="contactANG">Contact</a>
             </div>
         </header>
 
@@ -332,12 +332,12 @@
                 </div>
                     
                 <div>
-                    <p>Naviguer vers <a class="violet"> Home </a><a class="violet" href="galerie"> Gallery </a><a class="violet" href="contact"> Contact </a></p>
+                    <p>Go to <a class="violet" href="welcomeANG"> Home </a><a class="violet"> Gallery </a><a class="violet" href="contactANG"> Contact </a></p>
                 </div>
                     
                 <div class="flex">
-                    <p>switch to english</p>
-                    <a ><img class="resaux" src="images/logo_FR.png" alt="Logo France"/></a>
+                    <p>Display French site</p>
+                    <a href="galerie"><img class="resaux" src="images/logo_FR.png" alt="Logo France"/></a>
                 </div>
             </div>
         </footer>

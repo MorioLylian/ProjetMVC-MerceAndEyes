@@ -259,8 +259,8 @@
             
             <a class="logo"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
             <div class="header-right">
-                <a class="active" >Accueil</a>
-                <a href="galerie">Galerie</a>
+                <a href="welcome">Accueil</a>
+                <a class="active">Galerie</a>
                 <a href="contact">Contact</a>
             </div>
         </header>
@@ -332,12 +332,12 @@
                 </div>
                     
                 <div>
-                    <p>Naviguer vers <a class="violet"> Accueil </a><a class="violet" href="galerie"> Galerie </a><a class="violet" href="contact"> Contact </a></p>
+                    <p>Naviguer vers <a class="violet" href="welcomeANG"> Accueil </a><a class="violet"> Galerie </a><a class="violet" href="contact"> Contact </a></p>
                 </div>
                     
                 <div class="flex">
                     <p>Passer en Anglais</p>
-                    <a ><img class="resaux" src="images/logo_ANG.png" alt="Logo Angleterre" href="galerieANG"/></a>
+                    <a href="galerieANG"><img class="resaux" src="images/logo_ANG.png" alt="Logo Angleterre"/></a>
                 </div>
             </div>
         </footer>
