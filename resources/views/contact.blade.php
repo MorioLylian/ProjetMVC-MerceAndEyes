@@ -497,7 +497,10 @@ footer{
         <div class="container-contact100">
 
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form">
+			<form class="contact100-form validate-form" method="Post" action="{{ route('contact_path') }}">
+
+      @csrf
+        
 				<span class="contact100-form-title">
 					Nous contacter :
 				</span>

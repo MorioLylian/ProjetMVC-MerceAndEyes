@@ -15,10 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('contact', function () {
-    return view('contact');
-});
-
 Route::get('galerie', function () {
     return view('galerie');
 });
@@ -34,3 +30,11 @@ Route::get('welcomeANG', function () {
 Route::get('contactANG', function () {
     return view('contactANG');
 });
+
+
+Route::get('contact','ContactController@create');
+
+Route::post('/contact',[
+    'as' => 'contact_path',
+    'uses' => 'ContactController@store'
+]);
