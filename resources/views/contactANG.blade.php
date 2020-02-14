@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
 
         <?php echo View::make('parts.style') ?>
-        
+
     </head>
     <body>
         <header class="header">
@@ -60,9 +60,9 @@
                 <div class="flex">
                     <p>Our social networks</p>
                     <div class="flex">
-                    <a ><img class="resaux" src="images/logo_TWITTER.png" alt="Logo de twitter"/></a>
-                    <a ><img class="resaux" src="images/logo_FB.png" alt="Logo de facebook"/></a>
-                    <a ><img class="resaux" src="images/logo_INSTA.png" alt="Logo d'instagram"/></a>
+                    <a href="https://twitter.com/EyesMerchand"><img class="resaux" src="images/logo_TWITTER.png" alt="Logo de twitter"/></a>
+                    <a href="https://www.facebook.com/merchand.eyes.1"><img class="resaux" src="images/logo_FB.png" alt="Logo de facebook"/></a>
+                    <a href="https://www.instagram.com/hm"><img class="resaux" src="images/logo_INSTA.png" alt="Logo d'instagram"/></a>
                     </div>
                 </div>
                     
