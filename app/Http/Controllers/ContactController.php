@@ -17,18 +17,11 @@ class ContactController extends Controller
     {
         request()->validate([
             'name' => 'required|min:3',
-            'email' => 'required|email',
+            'email' => 'required|email|regex:#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#',
             'message' => 'required|min:10'
         ]);
         
-        if (preg_match("#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#", $_POST['email']))
-        {
-            echo 'L\'adresse ' . $_POST['email'] . ' est <strong>valide</strong> !';
-        }
-        else
-        {
-            echo 'Votre message a bien été envoyé';
-        }
+        
 
         Mail::to('MerchAndEyesCA@gmail.com')
             ->send(new Contact($request->except('_token')));
