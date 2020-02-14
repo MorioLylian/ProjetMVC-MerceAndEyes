@@ -27,7 +27,7 @@ class ContactController extends Controller
         }
         else
         {
-            echo 'L\'adresse ' . $_POST['email'] . ' n\'est pas valide, recommencez !';
+            echo 'Votre message a bien été envoyé';
         }
 
         Mail::to('MerchAndEyesCA@gmail.com')
