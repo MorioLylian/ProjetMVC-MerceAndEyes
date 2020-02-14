@@ -26,26 +26,41 @@
 					CONTACT :
 				</span>
 
-				<div class="wrap-input100 validate-input" data-validate="Il faut le nom !">
-					<input class="input100" type="text" name="name" placeholder="Nom et Prénom (Full name)">
+				<div class="wrap-input100 validate-input">
+					<input type="text" class="input100 @error('name') is-invalid @enderror" name="name" placeholder="Nom et Prénom (Full name)">
 					<span class="focus-input100-1"></span>
 					<span class="focus-input100-2"></span>
 				</div>
-
-				<div class="wrap-input100 validate-input" data-validate = "Il faut un mail !">
-					<input class="input100" type="text" name="email" placeholder="Email">
+					@error('name')
+						<div class="invalid-feedback">
+							{{ $errors->first('name') }}
+						</div>
+					@enderror
+				<div class="wrap-input100 validate-input">
+					<input type="email" class="input100 @error('email') is-invalid @enderror" name="email" placeholder="Email">
+					
+					<span class="focus-input100-1"></span>
+					<span class="focus-input100-2"></span>
+					
+				</div>
+					@error('email')
+						<div class="invalid-feedback">
+							{{ $errors->first('email') }}
+						</div>
+					@enderror
+				<div class="wrap-input100 validate-input">
+					<textarea type="text" class="input100 @error('message') is-invalid @enderror" name="message" placeholder="Message"></textarea>
 					<span class="focus-input100-1"></span>
 					<span class="focus-input100-2"></span>
 				</div>
-
-				<div class="wrap-input100 validate-input" data-validate = "Il faut un message ">
-					<textarea class="input100" name="message" placeholder="Message"></textarea>
-					<span class="focus-input100-1"></span>
-					<span class="focus-input100-2"></span>
-				</div>
+					@error('message')
+						<div class="invalid-feedback">
+							{{ $errors->first('message') }}
+						</div>
+					@enderror
                 <div class="container-contact100-form-btn">
 					<button class="contact100-form-btn">
-						Envoyer
+						ENVOYER / SEND
 					</button>
 				</div>
 			</form>
