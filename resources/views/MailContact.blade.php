@@ -17,7 +17,7 @@
     <ul>
       <li><span class="bold">Nom de l'expéditeur:</span> {{ $contact['name'] }}</li>
       <li><span class="bold">Email de l'expéditeur:</span> {{ $contact['email'] }}</li>
-      <li><span class="bold">Le message de l'expéditeur:</span> {{ $contact['message'] }}</li>
+      <li><span class="bold">Le message de l'expéditeur:</span></br> {{ $contact['message'] }}</li>
     </ul>
   </body>
 </html>
