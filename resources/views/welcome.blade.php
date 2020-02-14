@@ -103,11 +103,35 @@
             .violet{
                 color:#8d3c93;
                 cursor:pointer;
+                text-decoration:none;
             }
 
             footer a:hover{
                 text-decoration:underline;
             }
+
+
+            @media screen and (max-width: 1100px) {
+                .footer p{
+                    font-size: 13px;
+                }
+                .resaux{
+                width:25px;
+                margin-left:1%;
+            }
+            }
+
+
+            @media screen and (max-width: 600px) {
+                .footer p{
+                    font-size: 10px;
+                }
+                .resaux{
+                width:17px;
+                margin-left:1%;
+            }
+            }
+
 
 
 
@@ -351,7 +375,7 @@
                     
                 <div class="flex">
                     <p>Passer en Anglais</p>
-                    <a ><img class="resaux" src="images/logo_ANG.png" alt="Logo Angleterre"/></a>
+                    <a href="welcomeANG"><img class="resaux" src="images/logo_ANG.png" alt="Logo Angleterre"/></a>
                 </div>
             </div>
         </footer>
