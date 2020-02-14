@@ -27,10 +27,6 @@ Route::get('welcomeANG', function () {
     return view('welcomeANG');
 });
 
-Route::get('contactANG', function () {
-    return view('contactANG');
-});
-
 Route::get('MailContact', function () {
     return view('MailContact');
 });
