@@ -110,6 +110,44 @@
                 text-decoration:underline;
             }
 
+            .al_vertical {
+                display: inline-block;
+                height: auto;
+                padding: auto; 
+                box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+                -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+                -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+                -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+                -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+                margin-left: 5.2%; 
+                box-sizing: border-box;
+                margin: auto;
+                min-width: 100px;
+                
+                
+            }
+            
+            .twitter-timeline {
+                box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+                -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+                -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+                -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+                -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+            }
+
+            .reseaux_sociaux {
+                display: flex;
+                flex-direction: horizontal;
+               
+            }
+
+            @media screen and (max-width: 1500px) {
+            .reseaux_sociaux {
+                display: flex;
+                flex-direction: column;
+               
+            }
+            }
 
             @media screen and (max-width: 1100px) {
                 .footer p{
@@ -261,19 +299,26 @@
 
 
 
-
-
-
-
         <div class="actualite">
         <p class="boldcenter">OUR NEWS!</p>
-            
+            <div class="reseaux_sociaux">
+                <div class="al_vertical"> 
+                    <iframe scrolling="yes" src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FMerchandEyes-103323357923161&width=500&height=600&stream=true&header=true" style="border:none; overflow:hidden; width:500px; height:600px; float:left;"></iframe>                   
+                </div>
+                <div class="al_vertical">
+                    <a class="twitter-timeline"
+                    href="https://twitter.com/EyesMerchand?ref_src=twsrc%5Etfw"
+                    data-width="500"
+                    data-height="600">
+                    Tweets by @EyesMerchand
+                    </a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="al_vertical">
+                    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                    <div class="elfsight-app-cac14897-ada7-4bc0-80a7-890889bf1575"></div>
+                </div>
+            </div>  
         </div>
-
-
-
-
-
 
 
 
