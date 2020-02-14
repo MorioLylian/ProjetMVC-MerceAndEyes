@@ -57,11 +57,7 @@
                 </div>
             </div>  
         </div>
-
-
-
-
-
+        
         <div class="equipe">
         <p class="boldcenter">OUR TEAM!</p>
             <div class="equipeflex">

@@ -10,7 +10,7 @@
                 </div>
                     
                 <div>
-                    <p>Naviguer vers <a class="violet" href="/"> Accueil </a><a class="violet" href="galerie"> Galerie </a><a class="violet"> Contact </a></p>
+                    <p>Naviguer vers <a class="violet" href="/"> Accueil </a><a class="violet" href="galerie"> Galerie </a><a class="violet" href="contact"> Contact </a></p>
                 </div>
                     
                 <div class="flex">
