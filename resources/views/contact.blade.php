@@ -23,11 +23,11 @@
       @csrf
         
 				<span class="contact100-form-title">
-					Nous contacter :
+					CONTACT :
 				</span>
 
 				<div class="wrap-input100 validate-input" data-validate="Il faut le nom !">
-					<input class="input100" type="text" name="name" placeholder="Nom et Prénom">
+					<input class="input100" type="text" name="name" placeholder="Nom et Prénom (Full name)">
 					<span class="focus-input100-1"></span>
 					<span class="focus-input100-2"></span>
 				</div>
@@ -39,7 +39,7 @@
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Il faut un message ">
-					<textarea class="input100" name="message" placeholder="Votre message"></textarea>
+					<textarea class="input100" name="message" placeholder="Message"></textarea>
 					<span class="focus-input100-1"></span>
 					<span class="focus-input100-2"></span>
 				</div>

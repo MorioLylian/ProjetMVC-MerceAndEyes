@@ -10,7 +10,7 @@
                 </div>
                     
                 <div>
-                    <p>Go to<a class="violet" href="welcomeANG"> Home </a><a class="violet" href="galerieANG"> Gallery </a><a class="violet"> Contact </a></p>
+                    <p>Go to<a class="violet" href="welcomeANG"> Home </a><a class="violet" href="galerieANG"> Gallery </a><a href="contact" class="violet"> Contact </a></p>
                 </div>
                     
                 <div class="flex">
