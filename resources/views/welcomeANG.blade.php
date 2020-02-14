@@ -13,15 +13,8 @@
 
     </head>
     <body>
-        <header class="header">
-            
-            <a class="logo"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
-            <div class="header-right">
-                <a class="active" >Home</a>
-                <a href="galerieANG">Gallery</a>
-                <a href="contactANG">Contact</a>
-            </div>
-        </header>
+
+         <?php echo View::make('parts.headerANG') ?>
 
         <div id="slider">
         <p class="boldcenter">Most liked merchandise</p>
@@ -84,37 +77,6 @@
                 <p class="boldcenter">Thibault LEDANOIS</p>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-        <footer>
-            <div class="footer">
-                <div class="flex">
-                    <p>Our social networks</p>
-                    <div class="flex">
-                    <a href="https://twitter.com/EyesMerchand"><img class="resaux" src="images/logo_TWITTER.png" alt="Logo de twitter"/></a>
-                    <a href="https://www.facebook.com/merchand.eyes.1"><img class="resaux" src="images/logo_FB.png" alt="Logo de facebook"/></a>
-                    <a href="https://www.instagram.com/hm"><img class="resaux" src="images/logo_INSTA.png" alt="Logo d'instagram"/></a>
-                    </div>
-                </div>
-                    
-                <div>
-                    <p>Go to <a class="violet"> Home </a><a class="violet" href="galerieANG"> Gallery </a><a class="violet" href="contactANG"> Contact </a></p>
-                </div>
-                    
-                <div class="flex">
-                    <p>Display French site</p>
-                    <a href="/"><img class="resaux" src="images/logo_FR.png" alt="Logo France"/></a>
-                </div>
-            </div>
-        </footer>
+        <?php echo View::make('parts.footerANG') ?>
     </body>
 </html>

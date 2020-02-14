@@ -13,15 +13,7 @@
 
     </head>
     <body>
-        <header class="header">
-            
-            <a class="logo"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
-            <div class="header-right">
-                <a href="/">Accueil</a>
-                <a class="active">Galerie</a>
-                <a href="contact">Contact</a>
-            </div>
-        </header>
+        <?php echo View::make('parts.header') ?>
 
         <div class="divpink">
             <div class="divcaseblanc">
@@ -62,26 +54,6 @@
                 <img src="images/jean5.png" alt="jean clair">
             </div>
         </div>
-        <footer>
-            <div class="footer">
-                <div class="flex">
-                    <p>Nos Résaux</p>
-                    <div class="flex">
-                    <a href="https://twitter.com/EyesMerchand"><img class="resaux" src="images/logo_TWITTER.png" alt="Logo de twitter"/></a>
-                    <a href="https://www.facebook.com/merchand.eyes.1"><img class="resaux" src="images/logo_FB.png" alt="Logo de facebook"/></a>
-                    <a href="https://www.instagram.com/hm"><img class="resaux" src="images/logo_INSTA.png" alt="Logo d'instagram"/></a>
-                    </div>
-                </div>
-                    
-                <div>
-                    <p>Naviguer vers <a class="violet" href="welcomeANG"> Accueil </a><a class="violet"> Galerie </a><a class="violet" href="contact"> Contact </a></p>
-                </div>
-                    
-                <div class="flex">
-                    <p>Passer en Anglais</p>
-                    <a href="galerieANG"><img class="resaux" src="images/logo_ANG.png" alt="Logo Angleterre"/></a>
-                </div>
-            </div>
-        </footer>
+        <?php echo View::make('parts.footer') ?>
     </body>
 </html>
