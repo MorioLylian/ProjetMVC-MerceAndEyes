@@ -52,19 +52,6 @@
                 float: right;
             }
 
-            @media screen and (max-width: 500px) {
-                .header a {
-                    float: none;
-                    display: block;
-                    text-align: left;
-                }
-                .header-right {
-                    float: none;
-                }
-            }
-
-
-
 
             footer{
                 overflow: hidden;
@@ -75,6 +62,7 @@
                 border-style: solid;
                 border-width: 2px;
                 margin:0px !important;
+                
                 
             }
 
@@ -98,32 +86,6 @@
             footer a:hover{
                 text-decoration:underline;
             }
-
-
-            @media screen and (max-width: 1100px) {
-                .footer p{
-                    font-size: 13px;
-                }
-                .resaux{
-                width:25px;
-                margin-left:1%;
-            }
-            }
-
-
-            @media screen and (max-width: 600px) {
-                .footer p{
-                    font-size: 10px;
-                }
-                .resaux{
-                width:17px;
-                margin-left:1%;
-            }
-            }
-
-
-
-
 
 
             div#slider figure {
@@ -249,65 +211,70 @@
         }
 
             /* |/\/\| Fin du code css que j'ai ajouté |/\/\| */
+            @media screen and (max-width: 400px) {
+                            .equipeflex p{
+                                font-size: 9px;
+                            }
+                        }
+
+            @media screen and (max-width: 500px) {
+                            .header a {
+                                float: none;
+                                display: block;
+                                text-align: left;
+                            }
+                            .header-right {
+                                float: none;
+                            }
+                        }
+
+            @media (max-width: 576px) {
+                            .wrap-contact100 {
+                            padding: 62px 15px 65px 15px;
+                            }
+                        }  
+
+             @media screen and (max-width: 600px) {
+                .footer p{
+                    font-size: 10px;
+                }
+                .resaux{
+                width:17px;
+                margin-left:1%;
+                }
+            }   
 
             @media screen and (max-width: 700px) {
                 .equipeflex p{
                     font-size: 14px;
-            }
-            }
-
-            @media screen and (max-width: 400px) {
-                .equipeflex p{
-                    font-size: 9px;
-            }
-            }
-            @media (max-width: 576px) {
-            .wrap-contact100 {
-             padding: 62px 15px 65px 15px;
-            }
-
-            }               
-            body { margin:0px !important;}
-
-            .header a.logo {
-                font-size: 25px;
-                font-weight: bold;
-            }
-
-            .oeil {
-                width:10%;
-                min-width:30px;
-            }
-
-            .logo :hover{
-                cursor:pointer;
-            }
-
-            .header-right a:hover {
-                text-decoration:underline;
-                cursor:pointer;
-            }
-
-            .header a.active {
-                background-color: #8d3c93;
-                color: white;
-            }
-
-            .header-right {
-                float: right;
-            }
-
-            @media screen and (max-width: 500px) {
-                .header a {
-                    float: none;
-                    display: block;
-                    text-align: left;
-                }
-                .header-right {
-                    float: none;
                 }
             }
-            input {
+
+            @media (max-width: 992px) {
+                            .alert-validate::before {
+                                visibility: visible;
+                                opacity: 1;
+                            }
+                        }
+
+            @media screen and (max-width: 1100px) {
+                .footer p{
+                    font-size: 13px;
+                }
+                .resaux{
+                width:25px;
+                margin-left:1%;
+                }
+            }
+
+            @media screen and (max-width: 1500px) {
+            .reseaux_sociaux {
+                display: flex;
+                flex-direction: column;
+            
+                }
+            }
+input {
 	outline: none;
 	border: none;
 }
@@ -346,8 +313,6 @@ button:hover {
 iframe {
 	border: none !important;
 }
-
-
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -584,9 +549,6 @@ textarea.input100 {
 }
 
 
-
-
-
 /*------------------------------------------------------------------
 [ Alert validate ]*/
 
@@ -647,17 +609,7 @@ textarea.input100 {
   opacity: 1;
 }
 
-@media (max-width: 992px) {
-  .alert-validate::before {
-    visibility: visible;
-    opacity: 1;
-  }
-}
-
-
-
-
-.flex{
+            .flex{
                 display:flex;
             }
 
@@ -669,70 +621,6 @@ textarea.input100 {
                 max-width:50px;
                 margin-left:1%;
             }
-            footer{
-                overflow: hidden;
-                padding: 20px 10px;
-                border-color : #8d3c93;
-                background-color: white;
-                box-shadow: 2px -2px 3px black;
-                border-style: solid;
-                border-width: 2px;
-                margin:0px !important;
-                
-            }
-
-            footer div{
-                width:50%;
-                text-align:center; 
-            }
-
-            .footer{
-                display:flex;
-                width:70%;
-                margin-left:15%;
-            }
-
-            .violet{
-                color:#8d3c93;
-                cursor:pointer;
-                text-decoration:none;
-            }
-
-            footer a:hover{
-                text-decoration:underline;
-            }
-
-
-            @media screen and (max-width: 1100px) {
-                .footer p{
-                    font-size: 13px;
-                }
-                .resaux{
-                width:25px;
-                margin-left:1%;
-            }
-            }
-
-
-            @media screen and (max-width: 600px) {
-                .footer p{
-                    font-size: 10px;
-                }
-                .resaux{
-                width:17px;
-                margin-left:1%;
-            }
-            }
-
-
-            .violet{
-                color:#8d3c93;
-                cursor:pointer;
-            }
-
-            footer a:hover{
-                text-decoration:underline;
-            }
 
             a:focus {
 	        outline: none !important;
@@ -741,131 +629,6 @@ textarea.input100 {
             a:hover {
 	        text-decoration: none;
             }
-            
-            body { margin:0px !important;}
-
-.header {
-    overflow: hidden;
-    padding: 20px 10px;
-    border-color : #8d3c93;
-    background-color: white;
-    box-shadow: 2px 2px 6px black;
-    border-style: solid;
-    border-width: 2px;
-    margin:0px !important;
-    }
-
-.header a {
-    float: left;
-    color: #8d3c93;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-}
-
-.header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.oeil {
-    width:10%;
-    min-width:30px;
-}
-
-.logo :hover{
-    cursor:pointer;
-}
-
-.header-right a:hover {
-    text-decoration:underline;
-    cursor:pointer;
-}
-
-.header a.active {
-    background-color: #8d3c93;
-    color: white;
-}
-
-.header-right {
-    float: right;
-}
-
-@media screen and (max-width: 500px) {
-    .header a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    .header-right {
-        float: none;
-    }
-}
-
-
-
-
-footer{
-    overflow: hidden;
-    padding: 20px 10px;
-    border-color : #8d3c93;
-    background-color: white;
-    box-shadow: 2px -2px 3px black;
-    border-style: solid;
-    border-width: 2px;
-    margin:0px !important;
-    
-}
-
-footer div{
-    width:50%;
-    text-align:center; 
-}
-
-.footer{
-    display:flex;
-    width:70%;
-    margin-left:15%;
-}
-
-.violet{
-    color:#8d3c93;
-    cursor:pointer;
-    text-decoration:none;
-}
-
-footer a:hover{
-    text-decoration:underline;
-}
-
-
-@media screen and (max-width: 1100px) {
-    .footer p{
-        font-size: 13px;
-    }
-    .resaux{
-    width:25px;
-    margin-left:1%;
-}
-}
-
-
-@media screen and (max-width: 600px) {
-    .footer p{
-        font-size: 10px;
-    }
-    .resaux{
-    width:17px;
-    margin-left:1%;
-}
-}
-
-
-
-
-
 
 div#slider figure {
     position: relative;
@@ -954,8 +717,7 @@ div#slider {
     box-sizing: border-box;
     margin: auto;
     min-width: 100px;
-    
-    
+       
 }
 
 .twitter-timeline {
@@ -972,26 +734,6 @@ div#slider {
    
 }
 
-@media screen and (max-width: 700px) {
-    .equipeflex p{
-        font-size: 14px;
-}
-}
-@media screen and (max-width: 1500px) {
-.reseaux_sociaux {
-    display: flex;
-    flex-direction: column;
-   
-}
-}
-
-@media screen and (max-width: 400px) {
-    .equipeflex p{
-        font-size: 9px;
-}
-}
-
-     
 
 
         </style>
