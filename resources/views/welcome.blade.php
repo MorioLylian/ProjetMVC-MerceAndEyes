@@ -34,14 +34,6 @@
             </figure>
         </div>
 
-
-
-
-
-
-
-
-
         <div class="actualite">
         <p class="boldcenter">NOS ACTUALITÉES!</p>
             <div class="reseaux_sociaux">
