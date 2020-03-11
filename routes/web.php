@@ -31,6 +31,19 @@ Route::get('MailContact', function () {
     return view('MailContact');
 });
 
+Route::get('login', function () {
+    return view('login');
+});
+
+
+Route::get('login','LoginController@create');
+
+Route::post('/login',[
+    'as' => 'login_path',
+    'uses' => 'LoginController@store'
+]);
+
+
 Route::get('contact','ContactController@create');
 
 Route::post('/contact',[

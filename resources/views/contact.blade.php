@@ -12,8 +12,9 @@
         <?php echo View::make('parts.style') ?>
 
     </head>
-        <?php echo View::make('parts.header') ?>
+        
     <body>
+	<?php echo View::make('parts.header') ?>
 
         <div class="container-contact100">
 

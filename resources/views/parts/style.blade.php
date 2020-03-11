@@ -62,6 +62,7 @@
                 border-style: solid;
                 border-width: 2px;
                 margin:0px !important;
+                margin-top:5% !important;
                 
                 
             }
