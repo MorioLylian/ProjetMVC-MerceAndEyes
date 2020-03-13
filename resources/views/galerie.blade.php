@@ -21,11 +21,13 @@
                 120€ par commande de 3</p>
             </div>
             <div class="divimages">
-                <img src="images/sweatrouge.png" alt="sweat rouge">
-                <img src="images/sweatblanc.png" alt="sweat blanc">
-                <img src="images/sweatnoir.png" alt="sweat noir">
-                <img src="images/sweatviolet.png" alt="sweat violet">
-                <img src="images/sweatbleu.png" alt="sweat bleu">
+                   
+                    @foreach($produit as $product)
+                        @if ($product->categorie_id == 1)
+                            <img src={{ $product->image  }} alt= {{ $product->name }}>
+                        @endif
+                    @endforeach 
+
             </div>
         </div>
         <div class=divblank>
@@ -34,11 +36,13 @@
                 <p>80€ par commande de 3</p>
             </div>
             <div class="divimages">
-                <img src="images/tshirtblanc.png" alt="t-shirt blanc">
-                <img src="images/tshirtbleu.png" alt="t-shirt bleu">
-                <img src="images/tshirtnoir.png" alt="t-shirt noir">
-                <img src="images/tshirtrose.png" alt="t-shirt rose">
-                <img src="images/tshirtrouge.png" alt="t-shirt rouge">
+                    
+                    @foreach($produit as $product)
+                        @if ($product->categorie_id == 2)
+                            <img src={{ $product->image  }} alt= {{ $product->name }}>
+                        @endif
+                    @endforeach 
+
             </div>
         </div>
         <div class="divpink">
@@ -47,11 +51,12 @@
                 110€ par commande de 3</p>
             </div>
             <div class="divimages">
-                <img src="images/jean1.png" alt="jean gris">
-                <img src="images/jean2.png" alt="jean noir">
-                <img src="images/jean3.png" alt="jean usée">
-                <img src="images/jean4.png" alt="jean bleu">
-                <img src="images/jean5.png" alt="jean clair">
+                               
+                    @foreach($produit as $product)
+                        @if ($product->categorie_id == 3)
+                            <img src={{ $product->image  }} alt= {{ $product->name }}>
+                        @endif
+                    @endforeach 
             </div>
         </div>
         <?php echo View::make('parts.footer') ?>
