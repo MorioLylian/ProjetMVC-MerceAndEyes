@@ -16,6 +16,7 @@ class CreateProduitTable extends Migration
         Schema::create('produit', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
+            $table->string('image');
             $table->float('price');
             $table->integer('categorie_id')->unsigned();
             $table->foreign('categorie_id')->references('id')->on('categorie');
