@@ -15,9 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('galerie', function () {
-    return view('galerie');
-});
+Route::get('galerie', "ProductController@galerie");
 
 Route::get('galerieANG', function () {
     return view('galerieANG');
@@ -66,3 +64,5 @@ Route::post('/contact',[
     'as' => 'contact_path',
     'uses' => 'ContactController@store'
 ]);
+
+
