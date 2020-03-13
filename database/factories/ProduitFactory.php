@@ -7,10 +7,12 @@ use Faker\Generator as Faker;
 use Illuminate\Support\Str;
 
 
-$factory->define(Users::class, function (Faker $faker) {
+$factory->define(User::class, function (Faker $faker) {
     return [
         'name' => $faker->unique->name,
-        'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+        'image' => $faker->image,
+        'categorie_id' => random_int(\DB::table('categorie')->min('id'), \DB::table('categorie')->max('id')),
+        'price' => $faker->int,
         'remember_token' => Str::random(10),
     ];
 });
