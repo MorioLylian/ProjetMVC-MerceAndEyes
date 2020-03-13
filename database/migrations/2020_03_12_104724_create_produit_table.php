@@ -17,10 +17,9 @@ class CreateProduitTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('image');
-            $table->float('price');
             $table->integer('categorie_id')->unsigned();
             $table->foreign('categorie_id')->references('id')->on('categorie');
-            $table->string('price');
+            $table->float('price');
             $table->timestamps();
         });
     }
