@@ -737,4 +737,16 @@ div#slider {
 
 
 
+.pagelogin
+{
+  display : flex;
+}
+
+.supr
+{
+  width:40%;
+  margin:5%;
+}
+
+
         </style>

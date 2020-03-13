@@ -14,21 +14,73 @@
     </head>
         
     <body>
-	<?php echo View::make('parts.header') ?>
+	
+    
 
-        <div class="container-contact100">
+    <header class="header">
+            
+            <a class="logo"><img class="oeil" src="images/oeil.png" alt="Logo de notre site"/> MerchAndEyes </a>
+            
+            <div class="header-right">
+                <a  href="login">Logout</a>
+            </div>
+    </header>
 
-		<div class="wrap-contact100">
-			<form class="contact100-form validate-form" method="Post" action="{{ route('contact_path') }}">
+
+
+
+        <div class="pagelogin">
+
+		<div class="supr">
+			<form  method="Post" action="{{ route('admin_path') }}">
 
       @csrf
         
 				<span class="contact100-form-title">
-					CONTACT :
+					Suprimer
 				</span>
 
 				<div class="wrap-input100 validate-input">
-					<input type="text" class="input100 @error('name') is-invalid @enderror" name="name" placeholder="Nom et Prénom (Full name)">
+                <select class="input100" name="supr" id="select_supr">
+                    <option value="">DOIT VENIR DE LA BDD</option>
+                    <option value="1">tshirtrose</option>
+                    <option value="2">jean1</option>
+                </select>
+					<span class="focus-input100-1"></span>
+					<span class="focus-input100-2"></span>
+				</div>
+                <div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						ENVOYER / SEND
+					</button>
+				</div>
+			</form>
+		</div>
+
+
+
+        <div class="supr">
+			<form  method="Post" action="{{ route('admin_path') }}">
+
+      @csrf
+        
+				<span class="contact100-form-title">
+					Ajouter :
+				</span>
+
+                <div class="wrap-input100 validate-input">
+                <select class="input100" name="categorie" id="select_categorie">
+                    <option value="">DOIT VENIR DE LA BDD</option>
+                    <option value="1">tshirt</option>
+                    <option value="2">jean</option>
+                    <option value="3">sweat</option>
+                </select>
+					<span class="focus-input100-1"></span>
+					<span class="focus-input100-2"></span>
+				</div>
+
+                <div class="wrap-input100 validate-input">
+					<input type="text" class="input100 @error('name') is-invalid @enderror" name="name" placeholder="Nom du produit">
 					<span class="focus-input100-1"></span>
 					<span class="focus-input100-2"></span>
 				</div>
@@ -37,36 +89,26 @@
 							{{ $errors->first('name') }}
 						</div>
 					@enderror
-				<div class="wrap-input100 validate-input">
-					<input type="email" class="input100 @error('email') is-invalid @enderror" name="email" placeholder="Email">
-					
-					<span class="focus-input100-1"></span>
-					<span class="focus-input100-2"></span>
-					
-				</div>
-					@error('email')
-						<div class="invalid-feedback">
-							{{ $errors->first('email') }}
-						</div>
-					@enderror
-				<div class="wrap-input100 validate-input">
-					<textarea type="text" class="input100 @error('message') is-invalid @enderror" name="message" placeholder="Message"></textarea>
+
+
+                <div class="wrap-input100 validate-input">
+                <select class="input100" name="prix" id="select_prix">
+                    <option value="">DOIT VENIR DE LA BDD</option>
+                    <option value="1">35</option>
+                    <option value="2">50</option>
+                    <option value="3">45</option>
+                </select>
 					<span class="focus-input100-1"></span>
 					<span class="focus-input100-2"></span>
 				</div>
-					@error('message')
-						<div class="invalid-feedback">
-							{{ $errors->first('message') }}
-						</div>
-					@enderror
+
                 <div class="container-contact100-form-btn">
 					<button class="contact100-form-btn">
-						ENVOYER / SEND
+						Ajouter
 					</button>
 				</div>
 			</form>
 		</div>
 	</div>   
-    <?php echo View::make('parts.footer') ?>
     </body>
 </html>

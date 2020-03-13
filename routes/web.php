@@ -44,6 +44,22 @@ Route::post('/login',[
 ]);
 
 
+
+
+Route::get('admin', function () {
+    return view('admin');
+});
+
+Route::get('admin','AdminController@create');
+
+Route::post('/admin',[
+    'as' => 'admin_path',
+    'uses' => 'AdminController@store'
+]);
+
+
+
+
 Route::get('contact','ContactController@create');
 
 Route::post('/contact',[
