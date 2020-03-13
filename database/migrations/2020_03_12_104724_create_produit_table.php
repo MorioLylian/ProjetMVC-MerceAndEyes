@@ -19,7 +19,7 @@ class CreateProduitTable extends Migration
             $table->string('image');
             $table->integer('categorie_id')->unsigned();
             $table->foreign('categorie_id')->references('id')->on('categorie');
-            $table->float('price');
+            $table->enum('price', ['30', '50', '45']);
             $table->timestamps();
         });
     }
