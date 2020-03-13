@@ -1,16 +1,25 @@
 <?php
 
-use Illuminate\Database\Seeder;
+namespace Tests\Feature;
 
-class DatabaseSeeder extends Seeder
+use Tests\TestCase;
+use OrderStatusesTableSeeder;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\WithoutMiddleware;
+
+class ExampleTest extends TestCase
 {
-    /**
-     * Seed the application's database.
-     *
-     * @return void
-     */
-    public function run()
+    use RefreshDatabase;
+     
+     
+    public function testCreatingANewOrder()
     {
-        // $this->call(UsersTableSeeder::class);
+        
+        $this->seed();
+
+        
+        $this->seed(OrderStatusesTableSeeder::class);
+
+      
     }
 }
